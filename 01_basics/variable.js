@@ -1,14 +1,14 @@
-const accountId = 12345
-let accounEmail ="basirulkhan007@gmail.com"
-var accountName="Basirul"
-accountCity="Kolkata"
+const accountId = 1234567; //can't redeclare as it's a constant variable
+let emailId = "basirulKhan@yopmail.com"; // it follows scope
+var accountPass ="abcvb123456"; // Prefer not to use var due to block and functional scope issue
+accountCity = "Kolkata"; //not recomended
+let accountState  // Variable has been declared but not defined
 
-let accountState
 
-// accountId =2344
-accounEmail ="basirul.k@yopmail.com"
-accountName ="B khan"
-accountCity="Kopa"
+//accountId = 222;
+emailId = "basiru.@yopmail"
+accountPass ="1234"
+accountCity="Newtown"
 
-console.log(accountId);
-console.table([accountId,accounEmail,accountName,accountCity,accountState])
+console.table([accountId, emailId, accountPass, accountCity, accountState])
+
